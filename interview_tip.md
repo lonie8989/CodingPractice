@@ -38,3 +38,5 @@ Google love Graph(different kinds of graphs)/Tree
 
 daily - 1 hour (med), 1 hour(hard) - read a question : see optimal solution and write by yourself.
 Keep doing as many questions as you can. so you can raise the ability to recognize pattern matching quickly
+
+hi
