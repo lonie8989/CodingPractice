@@ -30,15 +30,16 @@ def noDuplicatedSubSet(nums: List[int]) -> List[List[int]]:
             res.append(subset.copy()) # deep copy
             return
 
-        # include nums[i]
-        subset.append(nums[i])
-        backTrack(i+1, subset)
-        subset.pop()
-        # not-include nums[i]
-        # 1. out of bound 2. check the duplication
-        while i+1 < len(nums) and nums[i] == nums[i+1]:
-            i+1
-        backTrack(i+1, subset)
+        if p > len(nums):
+            return
+
+        subset.append(nums[p])
+        backTrack(p+1, subset)
+        subnet.pop()
+
+        while p + 1 < len(nums) and nums[p] == nums[p+1]
+            p+1
+        backTrack(p+1, subset)
 
 
     backTrack(0, [])
